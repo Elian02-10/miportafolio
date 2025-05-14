@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icon/logo.png.jpg" type="image/x-icon">
+    <title>Mi Portafolio </title>
+</head>
+<body>
+    <header> <!-- Encabezados -->
+        <h1>Elian Ariel Monserrate Layedra</h1>
+        <p>La Vida te da muchos golpes, tu decides si rendirte o luchar hasta el final.</p>
+        <img src="/img/Elian.png.jpg" alt="Imangen de Elian Monserrate" height="280" width="280">
+    </header>
+    <nav><!-- Barra de navegación -->
+        <a href="#sobremi">Sobre mí</a>
+    </nav>
+    <br/>
+
+    <main> <!-- cuerpo de la página -->
+        <section id="sobremi">Hola, me presento mi nombre es Elian Monserrate, tengo 19 años de edad y actualmente me encuentro estudiando la carrera de Sistemas de información en la Universidad técnica de Babahoyo, como futuro profesional actualmente me estoy enfocando en adquirir nuevos conocimiento capacitándome cada vez mas en mi campo de estudio y a futuro mi campo de trabajo.</span> </section>
+
+        <h2>Lista sobre mis intereses y logros</h2>
+        <ol>
+            <li>Gradudado como Bachiller tecnico de la Republica del Edcuador</li>
+            <li>Estudiante de Sistemas de Informacion en la UTB</li>
+            <li>Organización y gestion de agenda propia</li>
+            <li>Analisis rapido y creatividad al momento de solucionar problemas</li>
+        </ol>
+        <h2>Tabla de habilidades</h2>
+         <!-- Tabla de contenido sobre habilidades -->
+        <table>
+            <thead>
+                <tr><th colspan="2">Mis Habilidades Actualmente</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Nro</td> <td>Habilidades</td></tr>
+                <tr><td>1.</td><td>Pensamiento crítico</td></tr>
+                <tr><td>2.</td><td>Pensamiento analitico</td></tr>
+                <tr><td>3.</td><td>conocimientos basicos en hardware del computador</td></tr>
+                <tr><td>4.</td><td>Expresion fluida al momento de hablar</td></tr>
+                <tr><td>5.</td><td>comunicacion fluida</td></tr>
+                <tfoot>
+                    <tr><th colspan="2">Elian Monserrate</th></tr>
+                </tfoot>
+            </tbody>
+        </table>
+        <br>
+        <h2>Audio</h2> <!-- contenido multimedia -->
+        <audio controls src="/audio/audiodepresentacionElian.mp3.opus" type="audio/mpeg"></audio>
+        <br>
+     <form>
+    <fieldset>
+        <legend>Encuesta</legend>
+        <!-- Campo para nombres y apellidos -->
+        <label for="txtNombre">Nombres y Apellidos:</label><br>
+        <input type="text" name="txtNombre" id="txtNombre" required><br><br>
+
+        <!-- Campo para correo electrónico con validación -->
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <!-- Campo para edad con validación de número y límites -->
+        <label for="textedad">Edad:</label><br>
+        <input type="number" name="textedad" id="textedad" min="0" max="120" required><br><br>
+
+        <!-- Grupo de botones de radio para género -->
+        <label for="masculino">Género:</label><br>
+        <input type="radio" name="genero" id="masculino" value="Masculino" required>
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" name="genero" id="femenino" value="Femenino" checked>
+        <label for="femenino">Femenino</label><br><br>
+
+        <!-- Campo para intereses -->
+        <label for="interes">Intereses:</label><br>
+        <textarea name="interes" id="interes" rows="4" cols="50" placeholder="Escribe tus interes aquí..."></textarea><br><br>
+
+        <!-- Campo de comentarios con textarea -->
+        <label for="comentarios">Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios aquí..."></textarea><br><br>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Enviar">
+    </fieldset>
+</form>
+
+    </main>
+    <br>
+    <footer>&#169 2025: Este sitio pertenece a Elian Monserrate Layedra</footer>
+
+</body>
+</html>
