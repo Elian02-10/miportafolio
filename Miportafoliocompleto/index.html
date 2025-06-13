@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/icon/logo.png.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/practica/css/stiles.css">
+    <script src="/practica/js/portafolio.js" defer></script>
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <header>
+        <h1>Elian Ariel Monserrate Layedra</h1>
+        <p>La Vida te da muchos golpes, tú decides si rendirte o luchar hasta el final.</p>
+        <img src="/img/Elian.png.jpg" alt="Imagen de Elian Monserrate" height="280" width="280">
+    </header>
+
+    <nav>
+        <a href="#sobremi">Sobre mí</a>
+    </nav>
+
+    <br>
+    <div class="m1">
+        <main>
+            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit...</article>
+        </main>
+    </div>
+
+    <ol>
+        <h3>Esto es una lista</h3>
+        <li id="infinix">infinix</li>
+        <li>oppo</li>
+        <li>poco</li>
+        <li>rog phone</li>
+        <li>nuvia</li>
+    </ol>
+
+    <main>
+        <section id="sobremi">
+            Hola, me presento: soy Elian Monserrate, tengo 19 años y estudio Sistemas de Información en la UTB...
+        </section>
+
+        <h2>Lista sobre mis intereses y logros</h2>
+        <ol>
+            <li>Graduado como Bachiller técnico</li>
+            <li>Estudiante de Sistemas en la UTB</li>
+            <li>Organización de agenda</li>
+            <li>Creatividad en resolución de problemas</li>
+        </ol>
+
+        <h2>Tabla de habilidades</h2>
+        <table>
+            <thead>
+                <tr><th colspan="2">Mis Habilidades Actualmente</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Nro</td> <td>Habilidades</td></tr>
+                <tr><td>1.</td><td>Pensamiento crítico</td></tr>
+                <tr><td>2.</td><td>Pensamiento analítico</td></tr>
+                <tr><td>3.</td><td>Conocimientos en hardware</td></tr>
+                <tr><td>4.</td><td>Expresión fluida</td></tr>
+                <tr><td>5.</td><td>Comunicación efectiva</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><th colspan="2">Elian Monserrate</th></tr>
+            </tfoot>
+        </table>
+
+        <h2>Audio</h2>
+        <audio controls src="/audio/audiodepresentacionElian.mp3.opus" type="audio/mpeg"></audio>
+
+        <div id="contenedor">
+            <article>
+                <header><h3>Hola mundo</h3></header>
+                <p id="hijo">Texto de área baja</p>
+            </article>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Encuesta</legend>
+                <label for="txtNombre">Nombres y Apellidos:</label><br>
+                <input type="text" id="txtNombre" required><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" required><br><br>
+
+                <label for="textedad">Edad:</label><br>
+                <input type="number" id="textedad" min="0" max="120" required><br><br>
+
+                <label>Género:</label><br>
+                <input type="radio" name="genero" id="masculino" value="Masculino" required>
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" name="genero" id="femenino" value="Femenino">
+                <label for="femenino">Femenino</label><br><br>
+
+                <label for="interes">Intereses:</label><br>
+                <textarea id="interes" rows="4" cols="50" placeholder="Escribe tus intereses..."></textarea><br><br>
+
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="comentarios" rows="4" cols="50" placeholder="Escribe tus comentarios..."></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>&#169; 2025: Este sitio pertenece a Elian Monserrate Layedra</footer>
+</body>
+</html>
